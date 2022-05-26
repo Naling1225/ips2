@@ -16,6 +16,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	implementation('org.apache.commons:commons-exec:1.3')
+	implementation files('C:/Users/user/Documents/2022-1/IPS/jep-master/jep-master/build/java')
 }
 
 tasks.named('test') {
